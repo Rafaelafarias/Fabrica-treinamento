@@ -1,0 +1,15 @@
+Inspecionar, console
+
+alteração não fixa. Serve mais pra teste
+
+document.querySelector("h1")
+let h1 = document.querySelector("h1")
+h1
+h1.style
+h1.style.background = "red"
+h1.style.color = "#fff"
+h1.style.textAlign = "center"
+
+
+
+css roda primeiro que javascripty

@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&family=Quicksand:wght@300;400;500&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(background1.jpg);
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.logo{
+    padding-left: 20px;
+    
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    gap: 90px;
+    padding: 7px;
+    color: white;
+    background-color: black;
+}
+
+.menu{
+    display: flex;
+    gap: 65px;  
+    padding-left: 350px;
+}
+
+a:link {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.3);
+}
+   
+a:visited {
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(235, 225, 225);
+}
+
+a:active {
+    color: #400202;
+}
+
+.button-1{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: bold;
+    color: #F20707;
+    margin: 0 15px;
+    padding: 10px 35px;
+    background-color: black;
+    border: 2px solid black;
+    height: 40px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.button-2{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #730202;
+    color: white;
+    margin: 0 15px;
+    padding: 10px 35px;
+    border: 2px solid #730202;
+    height: 40px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.button-2:hover{
+    background-color: #F20707;
+}
+
+.form{
+    font-size: 20px;
+    color: white;
+    line-height: 1.2;
+}
+
+.conteiner{
+    position: relative;
+    
+}
+
+.circle{
+    position: absolute;
+    left: 590px;
+}
+
+.titulo{
+    font-family: 'Times New Roman', Times, serif;
+    top: 220px;
+    left: 530px;
+    position: absolute;
+    text-align: center;
+    font-size: 70px;
+    padding-top: 10px;
+    color: black;
+}
+
+.subtitulo{
+    top: 300px;
+    left: 690px;
+    position: absolute;
+    text-align: center;
+    color: #dad8d8;
+    text-shadow: 0 0 50px black,
+                 0 0 25px black,
+                 0 0 20px rgb(233, 169, 169),
+                 0 0 15px rgb(231, 165, 165),
+                 0 0 10px #fff,
+                 0 0 5px  #fff;
+}
+
+.resumo{
+    text-align: justify;
+    font-weight: 300;
+    top: 570px;
+    left: 640px;
+    font-size: 38px;
+    position: absolute;
+    
+}
+
+.resumo2{
+    text-align: justify;
+    font-weight: 300;
+    top: 600px;
+    left: 560px;
+    font-size: 38px;
+    position: absolute;
+    
+}
+
+.campo input{
+    position: relative;
+    border: 2px solid black;
+    display: block;
+    border-radius: 10px;
+    font-size: 14px;
+    width: 90%;
+    padding: 10px;
+}
+.grupo{
+    padding: 20px;
+    position: fixed;
+    background-color: #400202;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    top: 25%;
+    left: 2%;
+    width: 20%;
+    height: 60%;
+    border-radius: 10px;   
+}
+
+.label-campo{
+    display: inline-block;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.usuario{
+    border: none;
+    outline: none;
+    font-size: 28px;
+    width: 70%;
+}
+
+.botao{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #F20707;
+    color: white;
+    margin: 0 15px;
+    padding: 10px 35px;
+    border: 2px solid #F20707;
+    height: 46px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.botao:hover{
+    background-color: #730202;
+}
+.mapa{
+    position: absolute;
+    top: 30%;
+    left: 73%;
+}
+
+.frase{
+    position: absolute;
+    top: 190px;
+    left: 1270px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.rodape{
+    text-align: center;
+    background: black;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-top: 20px;
+}

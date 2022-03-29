@@ -1,0 +1,70 @@
+h1 {
+    color: #0000ff;
+}
+.header{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header
+{display: block;
+flex-direction:row;
+align-items: center;
+justify-content: space-between;
+padding: 20px;
+gap: 200px;
+background-color:whitesmoke;
+border-right: 1px;
+border-color: blueviolet;
+
+
+
+}
+.twitter{
+    height: 40px;
+}
+.menu
+{
+    display: flex;
+    gap: 50px;
+}
+.nav{
+    padding: 20px;
+    font-size: 15px;
+
+}
+.areadeformulario
+{ float: left;
+padding: 9px;
+}
+.formulario1
+{
+    height: 200px;
+    width: 400px;
+    background-color: rgb(150, 120 ,170);
+}
+.c1{
+    padding: 0px;
+    text-align: center;
+}
+.nome{
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+}
+
+.email
+{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.text {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+.button {
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
